@@ -1,0 +1,43 @@
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    background: skyblue;
+}
+
+h1{
+font-size: 48px;
+text-align: center;
+padding: 20px 32px;
+}
+
+h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.buttons{
+    padding: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    font-size: 32px;
+    margin-left: 32px;
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+
+.container{
+    padding: 48px;
+    text-align: center;
+}
+
+.result{
+    font-size: 64px;
+    padding: 48px 0;
+}
