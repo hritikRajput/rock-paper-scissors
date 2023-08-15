@@ -1,10 +1,25 @@
-*,*::before,*::after{
-    padding: 0;
-    margin: 0;
+:root{
+    --red: #fc5185;
+    --gray: #364f6b;
+    --light-white: #f0f0f0;
+    --blue: #43dde6;
+    --secondaryblue:#5185fc;
+    --secondaryred: #ff2264;
 }
+
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-    height: 100vh;
-    background: skyblue;
+    background: var(--light-white);
+    font-family: 'Righteous', cursive;
+}
+
+h1,h2{
+    color: var(--secondaryblue);
 }
 
 h1{
@@ -26,10 +41,16 @@ h2{
 }
 
 button{
+    font-family: 'Righteous', cursive;
     font-size: 32px;
     margin-left: 32px;
-    padding: 16px 20px;
-    border-radius: 10px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: var(--red);
+    cursor: pointer;
+}
+button:hover{
+    background: var(--secondaryred);
 }
 
 .container{
